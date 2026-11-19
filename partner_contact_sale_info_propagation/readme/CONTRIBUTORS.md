@@ -1,6 +1,0 @@
-- [Tecnativa](https://www.tecnativa.com):
-  - Ernesto Tejeda
-  - Pedro M. Baeza
-  - César A. Sánchez
-  - Juan Carlos Oñate
-  - Carlos Roca

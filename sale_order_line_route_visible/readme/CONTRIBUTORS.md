@@ -1,1 +1,0 @@
-- Marc Gimeno Morales \<marc.gimeno@forgeflow.com\>

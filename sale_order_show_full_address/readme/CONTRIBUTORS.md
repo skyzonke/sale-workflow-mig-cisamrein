@@ -1,2 +1,0 @@
-- [ForgeFlow](https://www.forgeflow.com):
-  - Laura Valls \<laura.valls@forgeflow.com\>

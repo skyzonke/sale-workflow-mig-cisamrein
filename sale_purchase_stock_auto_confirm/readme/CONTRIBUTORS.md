@@ -1,5 +1,0 @@
-- [Tecnativa](https://www.tecnativa.com):
-  - Pedro M. Baeza
-  - Carlos Lopez
-- [Apik](https;//www.apik.cloud):
-  - Frederic grall
