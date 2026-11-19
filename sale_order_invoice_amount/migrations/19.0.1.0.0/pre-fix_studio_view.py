@@ -23,3 +23,9 @@ def migrate(cr, version):
             for node in arch.xpath("//field[@name='invoiced_amount']"):
                 parent = node.getparent()
                 parent.remove(node)
+
+    # Vue liste dédiée au champ disparu : suppression complète
+    cr.execute("SELECT id FROM ir_ui_view WHERE name = 'sale.order.tree.invoiced_amount'")
+    for (view_id,) in cr.fetchall():
+        _logger.info("Removing view sale.order.tree.invoiced_amount (id %s)", view_id)
+        util.remove_view(cr, view_id=view_id)
